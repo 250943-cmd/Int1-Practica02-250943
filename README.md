@@ -55,3 +55,96 @@ En caso de que necesitemos alinear el párrafo a **izquierda**, **derecha**, **c
 <p align ="center">parrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centradaparrafo con alineación centrada
 
 <p align = "justify"> parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado  parrafo con texto justificado.
+
+
+
+### 4. Enfatizado de texto
+
+Texto en  Negritas :Para resaltar texto importante que no sea un titulo por esto inicialmente estan en negritas , debemos encerrar el texto deseado entre dobles asteriscos(**)
+
+Ejemplo: Este texto esta en **negritas**
+
+Texto en cursiva(Italico):Para hacer referancia a texto utilizando el formato inclinado o Itaíco bastará con encerrar el texto deseado entre dos asteriscos simples (*).
+
+Ejemplo:Este *texto* estara *inclinado*
+
+Texto en Cursiva y Negrita: Para lograr esta estilización en la documentación  basta con juntar ambas configurciones , es decir encerramos el texto en un triple asterisco (***)
+
+Ejemplo  ***Este texto esta en Negrita e Itálíco***
+
+-Texto Tachado: En algunas ocasiones es nesesario dar formato al texto con un efecto  de como es incorrecto, generalmente esta idea se transmite porque el texto esta tachado ,es decir con una linea que mrca por la mitad.Para lograr este efecto tenemos que encerrar el texto entre una doble tílde de (~).
+
+Ejemplo: Se dise haya no ~~haiga~~.
+
+Texto Subrayado:En este tipo de formato el texto queda sobre una linea inferior  para detonar su relevancia, este formto no tiene una version rapida en el estándar MARKDOWN, pero dado su similiaridad  a HTML podemos utilizar las etiquetas ```<u>```y```</u>```.
+
+Ejemplo  El <u>texto</u> debe estar <u>subrayado</u>.
+
+Texto en Super Índice:En algunas ocasiones se requiere dar formato a formulas estadisticas que requieren potencias  entre otas aplicaciones,podemos utilizar el tag de HTML ```<sub```y```</sub>>``` pra delimitar el formato.
+
+Ejemplo: Para elevar x al cuadrado tendriamos lo siguiente  x<sup>2</sup>
+
+Texto en Subíndice :En el casi de Quimica se utilizan subindices para representar formulas , para ello podemos utilizar el formato de texto con la etiqueta HTLM  ```<sub```y```</sub>>```.
+
+Ejemplo:La formula del Agua es H<sub>2</sub>0.
+
+### 5. Listas 
+Cuando realizamos documentación  utilizando el estándar de MARKDOWN, es Común que tengamos quelistar elementos , requisitos de hardware ,requisios de software  o enumerar pasos de coo el software  o enumerar pasos  de como el software debe ser instalado  paso a paso , por eso debemos saber crear listas de las cuales hay 3 tipos :**Ordenadas(Numeros)**,**desordenadas(Viñetas)** y **Mixtas(viñetas y numeros )**.
+
+1. Listas ordendas 
+Estas  deberian  estar enumeradas con un numero seguido por un punto yun espacio en blanco para comenzar con el listado.
+
+1. PC
+2. wi-fi
+3. Modem
+4. Smarphone
+5. Smart TV
+6. Tablet
+
+Para reiniciar el  contenido se debe poner una linea de texto sin numeralia .
+
+2. Lista desordenadas 
+
+Estas listas no llevan un numero, sino una viñeta(simbolo),y suele listar elementos que no requieren un orden especifico.
+
+- pan
+- leche
+- azucar
+- huevo
+
+3. Listas mixtas 
+
+Son aquellas que mesclan ambos elementos
+
+- 3° A  DSM
+ 1. Juan
+ 2. Pedro
+ 3. Alejandra
+
+ - 3° B  DSM
+ 1. Romina
+ 2. Daniel
+
+ - 3° C  DSM
+ 1. Yahir
+ 2. Liset
+ 3. Jeovany
+ 4. Erik
+
+### 6. Bloques de codigo (CODE BLOCS) O Citas (BLOK QUOTES)
+
+Estos estilos de textos se utilizan para llamar la atencion del lector , en pasos que son  importantes , realizar  alguna reseña o segmentar lineas de codigo  que se deberian ingresar en una terminal de comandos o linea de ejecución.
+
+
+- Cuadro de citas (BLOCK  QUOTES)
+Son cajas de colores grises por defecto con una marjen mas  claro 
+
+Ejemplo:
+
+para listar carpetas y archivos  desde una terminal  de comandos en e sistema operativo de windows debemos usar el comando :
+> C:/dir
+Despues oprimimos la tecla *Enter*.
+
+Tambien podemos usar el multilinea 
+**EJEMPLO**
+pasos para instalar MSQL
