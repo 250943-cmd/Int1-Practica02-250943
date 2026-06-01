@@ -217,7 +217,7 @@ Ilustrator , Int o Photoshop . pero si quiertes modificarlo desde el codigo , el
 Cambiando la estructura del maquetado por la etiqueta   ``` <img>```
 
 Ejemplo:
-<imj src="./perrito/perito.webp" width="100" heigth="50">
+<img src="./perrito/perito.webp" width="100" heigth="50">
 
 ### 10 .Notal al pie 
 
