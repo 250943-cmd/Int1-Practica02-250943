@@ -176,9 +176,10 @@ En caso de que nesesitemos estructurar datos  o informacion relevante  para la d
 Ejemplo :
 
 |Titulo 1 |Titulo 2 | Titulo 3 | Titulo 4 |
-Fila 1, Celda 1|Fila 1, Celda 2|Fila1, Celda 3|Fila 1, Celda 4|
-Fila 2, Celda 1|Fila 2, Celda 2|Fila2, Celda 3|Fila 2, Celda 4|
-Fila 3, Celda 1|Fila 3, Celda 2|Fila3, Celda 3|Fila 3, Celda 4|
+|---|---|---|---|
+|Fila 1, Celda 1|Fila 1, Celda 2|Fila1, Celda 3|Fila 1, Celda 4|
+|Fila 2, Celda 1|Fila 2, Celda 2|Fila2, Celda 3|Fila 2, Celda 4|
+|Fila 3, Celda 1|Fila 3, Celda 2|Fila3, Celda 3|Fila 3, Celda 4|
 
 ### 8. Hipervinculos (Links)
 
