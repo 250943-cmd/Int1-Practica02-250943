@@ -148,3 +148,51 @@ Despues oprimimos la tecla *Enter*.
 Tambien podemos usar el multilinea 
 **EJEMPLO**
 pasos para instalar MSQL
+> - Descarga el archivo instalador desde la pagina oficial  ww.msql.com
+> - Instalar el servicio de la base de datos
+> - 
+> - 
+>
+>
+>
+
+- Bloques de codigo 
+
+Es común que en la documentación del proyecto de software demos al usuario un par  de instrucciones de como instalar,configurar ,desplegar y testear (pruebas), nuestro producto desarrollado .Por tal motivo el estándar markdown  nos permite  enfatizar  estas instrucciones , simulando estar en una terminal del sistema operativo , para delimitar este código basta encerrarlo un triples carácteres de bacltic (acento o tilde inversa   ```  ' ```)
+
+Para clonar el proyecto ingresa la siguiente instrucción 
+
+C:\Users\PC-11\Desktop>git clone https://github.com/250943-cmd/Int1-Practica02-250943.git 
+
+A diferencia de los bloques de citas, la tipografia  y sicnificado asociado cambian.
+
+### 7. Tablas 
+
+En caso de que nesesitemos estructurar datos  o informacion relevante  para la documentación  podemos utilizar  el formato de tablas , para lo que tenemos  que considerar la estructura de la base de una tabla ;
+
+- Usa | para delimitas las columnas 
+- Usa --- para separar las filas del encabezado
+
+Ejemplo :
+
+|Titulo 1 |Titulo 2 | Titulo 3 | Titulo 4 |
+Fila 1, Celda 1|Fila 1, Celda 2|Fila1, Celda 3|Fila 1, Celda 4|
+Fila 2, Celda 1|Fila 2, Celda 2|Fila2, Celda 3|Fila 2, Celda 4|
+Fila 3, Celda 1|Fila 3, Celda 2|Fila3, Celda 3|Fila 3, Celda 4|
+
+### 8. Hipervinculos (Links)
+
+Para poder hacer referencias a documentos  internos o externos dentro del repositorio, debemos respetar la siguiente estructura 
+
+``` 
+[Texto  que el usuario leera ](url a donde te dirijira ) " Texto que aparecera  cuando pongas el cursor sobre la liga "
+```
+
+Ejemplo:
+
+- Ligas externas 
+[Google](https://google.com)
+
+- Ligas internas 
+[Acerca del autor](.aboutme.md "Conoce mas!) 
+
