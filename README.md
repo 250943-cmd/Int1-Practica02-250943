@@ -197,3 +197,47 @@ Ejemplo:
 - Ligas internas 
 [Acerca del autor](.aboutme.md "Conoce mas!) 
 
+### 9. Imajenes 
+El estandar de mardown nos permite incrustar imajenes dentro de nuestra documentación lo que nos permitira poner logotipos ,capturas de pantalla o cualquier otro archivo grafico importante .
+
+La estructura varia un poco  de las referencias de hipervinculos etc, siendo:
+```
+![Texto que el usuario leera ](url de donde se encuentra la imajen )
+```
+
+Ejemplo :
+![perrito](./perrito/perito.webp)
+
+Es importante comprender que la resolucion de la imajen sera la orijinal de archivo.
+
+**Tipo PRO:**
+Si el tamaño de la imajen no se ajusta a lo que deseas para tu documento , lo mas recomendable es ajustar el tamaño de tu archivo original con algun software procesador de imajenes como :Paint,
+Ilustrator , Int o Photoshop . pero si quiertes modificarlo desde el codigo , el estandar no tiene parametros definidopor lo que nesesitaremos echar lineas de codigo HTML 
+
+Cambiando la estructura del maquetado por la etiqueta   ``` <img>```
+
+Ejemplo:
+<imj src="./perrito/perito.webp" width="100" heigth="50">
+
+### 10 .Notal al pie 
+
+### [Footnotes ](https://githup.com/markdown-it/markdown-it-footnotes)
+
+Si nuestra documentacion requiere ubicar  notas de importancia al pie dentro de un parrafo ^[Nota interna ]extenso de nuestra documentacion
+
+Segunda referencia ala nota 2[^second].
+
+[^first]: Nota al pie **puede ser forateada**
+
+     y tener múltiples líneas de párrafo 
+
+[^second]: Texto de la segunda nota al pie 
+
+### 11.Abreviaciones 
+
+Actividad
+
+### 12.
+
+ 
+
